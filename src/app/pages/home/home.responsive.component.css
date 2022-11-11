@@ -1,0 +1,31 @@
+@media screen and (min-width:400px){
+  .actors__content__main > *{
+    flex: 1 1 50%;
+  }
+}
+@media screen and (min-width:760px){
+  .actors__content__main > *{
+    flex: 1 1 30%;
+  }
+}
+@media screen and (min-width:860px){
+  .articles__content__main{
+    flex-direction: row;
+  }
+  .articles__main{
+    width: 70%;
+  }
+  .articles__others{
+    margin-top:0;
+  }
+}
+@media screen and (min-width:1200px){
+  .articles__content{
+    width:80%;
+  }
+}
+@media screen and (min-width:1400px){
+  .articles__content{
+    width:65%;
+  }
+}

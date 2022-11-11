@@ -1,7 +1,8 @@
-.container__big-card{
+.container__actor-card{
   margin-left: 1rem;
   margin-right: 1rem;
   margin-top: 1rem;
+  margin-bottom: 1rem;
   /* width: 400px; */
   /* height: 500px; */
   display: flex;
@@ -11,27 +12,27 @@
   /* border:1px solid red; */
 }
 
-.big-card__title > h1  {
+.actor-card__title > h1  {
   margin-top: 15px;
   font-size: 1.4rem;
   text-transform: uppercase;
 }
 
-.big-card__description{
-  margin-top: 20px;
+.actor-card__description{
+  margin-top: .2rem;
 }
 
-.big-card__description > p > a {
+.actor-card__description > p{
   color: grey;
 }
 
-.big-card__photo{
+.actor-card__photo{
   width:100%;
 }
-.big-card__photo > img{
+.actor-card__photo > img{
   width: 100%;
-  height: 280px;
+  /* height: 280px; */
   object-fit: cover;
-  object-position: left top;
+  object-position: 50% 50%;
   /* min-width: 100%; */
 }

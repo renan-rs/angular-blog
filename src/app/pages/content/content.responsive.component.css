@@ -1,0 +1,20 @@
+@media screen and (min-width:640px){
+  .content__wrapper{
+    max-width:80%;
+  }
+}
+@media screen and (min-width:768px){
+  .content__wrapper{
+    max-width:614px;
+  }
+}
+@media screen and (min-width:1200px){
+  /* .content__wrapper{
+    width:80%;
+  } */
+}
+@media screen and (min-width:1400px){
+  /* .content__wrapper{
+    width:65%;
+  } */
+}
